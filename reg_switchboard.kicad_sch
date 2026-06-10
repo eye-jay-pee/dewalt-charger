@@ -1,0 +1,1244 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bebeb043-9a7d-48af-8755-64489b35691b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 201.93 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a74e50be-adb4-43ff-8d27-5186eb691857")
+	)
+	(wire
+		(pts
+			(xy 212.09 113.03) (xy 191.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c81131-f58a-40fd-a6d9-9e197eccbf54")
+	)
+	(wire
+		(pts
+			(xy 201.93 80.01) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e18b000-0b7d-4b3b-ac7d-d0760fc47261")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 66.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18363c12-e779-445b-8430-b751dacb06ec")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c983850-5657-40c6-b59b-ef7212a18007")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 66.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2283b27b-6032-460e-a82d-8188bc783d4e")
+	)
+	(wire
+		(pts
+			(xy 66.04 138.43) (xy 60.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bd3c4e-2b3d-49a7-b5e3-89b3e40bf630")
+	)
+	(wire
+		(pts
+			(xy 102.87 133.35) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1e1a0a-da6d-4e85-9bb1-125261497579")
+	)
+	(wire
+		(pts
+			(xy 212.09 123.19) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a446a3-216b-4d50-8d8e-a356cce22a43")
+	)
+	(wire
+		(pts
+			(xy 60.96 135.89) (xy 66.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d87988-47e1-48c1-ab07-6b90f1f35bf4")
+	)
+	(wire
+		(pts
+			(xy 212.09 110.49) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d2ce5b-5bfa-40d2-ae6a-04b3a45bee9d")
+	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a836ae0-a09b-4cba-89d6-66d3158baac9")
+	)
+	(wire
+		(pts
+			(xy 104.14 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdfb494-3558-41fc-a7ed-cc005f4a785e")
+	)
+	(wire
+		(pts
+			(xy 212.09 120.65) (xy 191.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e96a24e-d3f9-47ed-9dff-23ff349a9000")
+	)
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3c1c69-6725-4e7a-b578-9206c48a2bbb")
+	)
+	(wire
+		(pts
+			(xy 212.09 107.95) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8471aba3-95a7-4b59-ac85-02e344598028")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8541c0bb-7374-4027-96ba-1ed4691755bb")
+	)
+	(wire
+		(pts
+			(xy 66.04 140.97) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aad28d9-54dd-496d-bd28-d2d2488303f9")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a854f56d-f6a2-43e4-8bad-99505ed30b6b")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade91523-ace1-4be5-8a5e-648824414730")
+	)
+	(wire
+		(pts
+			(xy 212.09 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc7af53-f3b5-462b-a132-bf0915b84301")
+	)
+	(wire
+		(pts
+			(xy 102.87 135.89) (xy 115.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7543a11-aa36-47d6-9858-6a4aa749e41e")
+	)
+	(wire
+		(pts
+			(xy 212.09 91.44) (xy 191.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97fcd42-af6d-4a25-a14e-b9104dbce11d")
+	)
+	(wire
+		(pts
+			(xy 60.96 143.51) (xy 66.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c7b6c5-a708-48ac-a9f5-cc91a3efe7cd")
+	)
+	(wire
+		(pts
+			(xy 60.96 133.35) (xy 66.04 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49c0fb6-e1a7-41ee-9b0d-75555504227f")
+	)
+	(wire
+		(pts
+			(xy 212.09 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3e29dd-c102-47c7-911d-798362874d6b")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db103761-74a6-4a6c-83ca-2e02f1587895")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ba13f8-f2ac-48de-aa10-1fc96ab9b7ef")
+	)
+	(label "SDA"
+		(at 59.69 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0927b32d-efa7-4d38-9bca-8c17fbb3fd1e")
+	)
+	(label "SDA"
+		(at 191.77 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0bde345f-65ad-4d7f-9698-16844239df8f")
+	)
+	(label "SCL"
+		(at 60.96 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dae8674-8235-4e13-807b-e37b981d7906")
+	)
+	(label "SCL"
+		(at 59.69 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e37b299-8e9d-4ab0-832d-7fa309ff8e43")
+	)
+	(label "SCL"
+		(at 191.77 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32f3babc-6339-4f45-9a78-2f0266f372da")
+	)
+	(label "Battery Voltage"
+		(at 191.77 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "360e489d-9bf1-4048-bc9d-26ddce296259")
+	)
+	(label "Total Input Reg"
+		(at 114.3 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d805ba-f003-4af3-81c8-c568413952fc")
+	)
+	(label "SDA"
+		(at 60.96 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61d0fd0e-9291-4ed2-ab84-34636839dc33")
+	)
+	(label "Battery Voltage Feedback"
+		(at 115.57 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69792e3b-6dd1-4274-b460-3a0e6bfd9d37")
+	)
+	(label "ADDR1"
+		(at 60.96 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "836e3afb-2172-43c1-bce2-395e98f55e44")
+	)
+	(label "Battery Voltage Feedback"
+		(at 191.77 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87da814a-754b-42f1-8332-c99441e6e6b7")
+	)
+	(label "ADDR0"
+		(at 59.69 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b714bba2-4762-4518-9551-2aa298faa2d7")
+	)
+	(label "Pre Charge Current Signal"
+		(at 114.3 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8c28bd0-f13c-4125-946c-89c3f7dcc495")
+	)
+	(label "Total Input Reg"
+		(at 191.77 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b94efb1d-cb15-4279-86f7-227411b4fdb9")
+	)
+	(label "ADDR0"
+		(at 60.96 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c87edece-363b-43cc-b87d-f131e03633d3")
+	)
+	(label "Fast Charge Current Signal"
+		(at 191.77 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c98d96a0-3c54-461b-9715-2fd8e1dbc637")
+	)
+	(label "NRST"
+		(at 60.96 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfe71932-a75b-4fcd-95d0-2bd7ff3a728b")
+	)
+	(label "Battery Voltage"
+		(at 115.57 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd888f82-a339-47f8-af46-28e9df307878")
+	)
+	(label "Pre Charge Current Signal"
+		(at 191.77 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e652dd57-414d-47b2-b910-ac42aeeb314f")
+	)
+	(label "ADDR1"
+		(at 59.69 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea8d2b97-423d-4b0e-97c3-3006da0e1576")
+	)
+	(label "ADDR1"
+		(at 191.77 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f067408a-8c0f-4656-b993-2e53c4217c67")
+	)
+	(label "ADDR0"
+		(at 191.77 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f77c0929-d2f5-4aa4-b328-82fafd46f974")
+	)
+	(label "NRST"
+		(at 191.77 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcb93614-ca43-4272-b815-dc1aa238b0a9")
+	)
+	(label "Fast Charge Current Signal"
+		(at 114.3 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffefaf57-54ae-438d-8de0-3d752ab8a581")
+	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 212.09 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f51b63b-6763-45d2-8bbf-a179a7197986")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 212.09 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15b47f1e-c0e9-4f78-bf23-b94d55383217")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 212.09 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b7b3ffd-1704-4526-847a-913799207ced")
+	)
+	(hierarchical_label "VFB"
+		(shape output)
+		(at 212.09 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a0cea15-1a82-4e53-ae42-91f8dee87fc8")
+	)
+	(hierarchical_label "ISET1"
+		(shape output)
+		(at 212.09 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66d9f531-0dbe-4e5e-bea0-e67c77e44760")
+	)
+	(hierarchical_label "ISET2"
+		(shape output)
+		(at 212.09 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7157a39c-1790-489d-bdf7-f7ba49859537")
+	)
+	(hierarchical_label "ACREG"
+		(shape output)
+		(at 212.09 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5a65747-0ee0-4f9f-8a33-aac3f5b17a7e")
+	)
+	(hierarchical_label "ADDR1"
+		(shape input)
+		(at 212.09 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8dbe077-58de-48bd-a3a7-149de7118bfe")
+	)
+	(hierarchical_label "ADDR0"
+		(shape input)
+		(at 212.09 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7cb4c04-828e-4b57-9110-a8303b2632e9")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 212.09 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc4517b4-4fd0-438c-9812-063cd07dcc65")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fc74f3a-c477-4525-b32d-ab92b4fbf01b")
+		(property "Reference" "R50"
+			(at 204.47 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 204.47 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.152 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ba40e9a-38a5-4cb4-978d-99cb2cff20b2")
+		)
+		(pin "1"
+			(uuid "914907c4-4642-46f3-9079-3b527b18072a")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/c80a2598-5a75-413f-8e00-1b6997e7014b/829ee549-24d1-4180-a046-a3539fbbfd8b/4f5d1899-7d92-4165-aae5-7b43332dea17"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 201.93 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc701c89-da4f-49c4-9f53-b346500f141a")
+		(property "Reference" "#PWR063"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66e738fc-3a1e-4c85-8840-baff985068cf")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/c80a2598-5a75-413f-8e00-1b6997e7014b/829ee549-24d1-4180-a046-a3539fbbfd8b/4f5d1899-7d92-4165-aae5-7b43332dea17"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 130.81)
+		(size 36.83 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a095971-2d5e-4718-82e6-06fbd64d4f75")
+		(property "Sheetname" "Voltage Regulation"
+			(at 66.04 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VREG.kicad_sch"
+			(at 66.04 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADDR_0" input
+			(at 66.04 138.43 180)
+			(uuid "79457c15-7858-437f-9291-5ce28fc4d985")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADDR_1" input
+			(at 66.04 140.97 180)
+			(uuid "0da432c7-41ba-45e8-beef-f02b8f55598f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEG_RST" input
+			(at 66.04 143.51 180)
+			(uuid "b9381941-dc12-41b7-8f01-a2622a15dccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 66.04 133.35 180)
+			(uuid "8b965367-5905-4a98-acac-d35d79864c15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 66.04 135.89 180)
+			(uuid "734ea025-d400-464e-a477-18bde9632654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT" input
+			(at 102.87 133.35 0)
+			(uuid "9653523e-9cdf-4e0a-b270-d3ac2567526f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOLTAGE_FEEDBACK" output
+			(at 102.87 135.89 0)
+			(uuid "17c663b9-2ae4-44ed-9b95-ee6edfbd24c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/c80a2598-5a75-413f-8e00-1b6997e7014b/829ee549-24d1-4180-a046-a3539fbbfd8b/4f5d1899-7d92-4165-aae5-7b43332dea17"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 63.5)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e8726cb-88b5-46fd-bf7e-8ba886a910b7")
+		(property "Sheetname" "Current Regulation"
+			(at 66.04 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IREG.kicad_sch"
+			(at 66.04 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACREG" output
+			(at 104.14 67.31 0)
+			(uuid "c3c653e8-fa0f-4102-bb89-82a8dcc18b25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADDR_0" input
+			(at 66.04 71.12 180)
+			(uuid "9bb66f05-fb1b-4179-911c-703216fbf489")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADDR_1" input
+			(at 66.04 73.66 180)
+			(uuid "eb38dd34-ddd6-40ed-9df7-b172cc725606")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IREG1" output
+			(at 104.14 69.85 0)
+			(uuid "a04505d5-e602-4588-baa5-2a57fb332b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IREG2" output
+			(at 104.14 72.39 0)
+			(uuid "226e7405-513d-4a71-a025-84ec00dc9d9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 66.04 66.04 180)
+			(uuid "2ec47e13-e634-4ef1-9082-a074accad6e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 66.04 68.58 180)
+			(uuid "c5dd8b4f-0bfc-48ed-9010-c5c73c91fc04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/c80a2598-5a75-413f-8e00-1b6997e7014b/829ee549-24d1-4180-a046-a3539fbbfd8b/4f5d1899-7d92-4165-aae5-7b43332dea17"
+					(page "18")
+				)
+			)
+		)
+	)
+)

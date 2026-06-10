@@ -1,0 +1,1432 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b21307b5-1d64-40e1-b998-44a7a6cc1058")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b81eff-8fc1-4d76-adcb-ba7ea468f6ee")
+	)
+	(wire
+		(pts
+			(xy 73.66 143.51) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff9002c-e890-46f5-a8ce-da8ac5843214")
+	)
+	(wire
+		(pts
+			(xy 102.87 158.75) (xy 102.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11af22d3-98da-4d55-8d7e-15be28a49610")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab0211e-ff7f-4940-a63c-0ca7b1d6e24c")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b30d177-6518-4d55-85bf-29183b5fe201")
+	)
+	(wire
+		(pts
+			(xy 107.95 158.75) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd6f543-01a3-4862-9fb8-19a6f9694499")
+	)
+	(wire
+		(pts
+			(xy 121.92 146.05) (xy 134.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269aeeb9-2564-4ba2-bd23-2e4f94fb7e3b")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 88.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2feb6eb5-ba61-43c4-93db-804f65461f9b")
+	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 134.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9755db-629e-49a2-b017-f300ec838ddb")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfa9a6b-410c-4b25-afcb-792447174e7b")
+	)
+	(wire
+		(pts
+			(xy 121.92 60.96) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d02f6a8-9dbb-45a4-ba92-6e4de8d67ae9")
+	)
+	(wire
+		(pts
+			(xy 73.66 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633d400d-163f-40fe-8d6c-d5cd17b718c3")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6362718a-6fd0-4453-9ef5-0595cdf3a5ce")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710307ab-90bb-4f9e-b5f0-2097757de21b")
+	)
+	(wire
+		(pts
+			(xy 121.92 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73eebbf0-cfad-4a3d-b7bc-924dd9e1fa71")
+	)
+	(wire
+		(pts
+			(xy 73.66 138.43) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75776dc6-31b4-4983-a32e-ba0ae7af5278")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778fcf19-6328-4ca4-800b-e481a2535533")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd4a446-6000-46d6-99ca-1327d6166873")
+	)
+	(wire
+		(pts
+			(xy 73.66 140.97) (xy 88.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e57e006-cfd6-432b-9388-4d4d6fc10bb5")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ff40a8-9798-42b9-b5bc-037893c9a637")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95aa3a1c-bb63-446f-ae92-d2de0a634e38")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 88.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffa09bf-17af-4376-9649-185d05cdc59a")
+	)
+	(wire
+		(pts
+			(xy 121.92 140.97) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2335d9a-1821-40c4-a2ee-62ee9c295454")
+	)
+	(wire
+		(pts
+			(xy 121.92 143.51) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4cc09c-2039-4242-9db8-e370941721fb")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6d014c-0471-4e82-a4aa-64687fd47cab")
+	)
+	(wire
+		(pts
+			(xy 73.66 114.3) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea5258f-b5c8-4b07-8626-fc6a1a132ab5")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40e6a7e-d2e5-4603-aaf3-e2588c7e6cbf")
+	)
+	(wire
+		(pts
+			(xy 121.92 69.85) (xy 134.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb2170a-44ea-4cbf-bc0b-d7a5d1ca9d86")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc10e8bd-cbf2-4578-8c8b-9cc40733a36c")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be97686b-8c0c-4720-8358-f282f01f5579")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cde51a-74a6-4a78-b67c-ad3e878f3230")
+	)
+	(wire
+		(pts
+			(xy 73.66 52.07) (xy 88.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca226186-cb06-4e56-b142-8bbc18e145f1")
+	)
+	(wire
+		(pts
+			(xy 121.92 50.8) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58718e3-1805-47ff-a0f6-29b8c04a3ac3")
+	)
+	(wire
+		(pts
+			(xy 73.66 111.76) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd5b1c6-1ea0-40e8-a8eb-cd65cfc798d1")
+	)
+	(wire
+		(pts
+			(xy 121.92 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00b866c-cebe-4fe2-ac1e-7790ca4e2074")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2db9cf6-c27b-4d32-8686-a62b0c67ef33")
+	)
+	(wire
+		(pts
+			(xy 105.41 158.75) (xy 105.41 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34cffa0-dc5a-42e8-907f-30c847b811a1")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe58a9b-7df4-4ca4-8008-360308f15248")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8c710e-dd1b-4891-8a28-100c13d509cc")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe674085-2e23-4992-a6fb-a53c5112ac0a")
+	)
+	(hierarchical_label "DBB_I2C_DT"
+		(shape bidirectional)
+		(at 73.66 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b5b139d-22aa-459e-90e6-2fc48ef6ca50")
+	)
+	(hierarchical_label "DBG_SWD_IO"
+		(shape bidirectional)
+		(at 73.66 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c3f2e95-f5c0-4be4-b94c-3ee7a1bd0b42")
+	)
+	(hierarchical_label "SCREEN_D7"
+		(shape input)
+		(at 73.66 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fb610c8-da17-4cb7-8a69-dec1d020d3f3")
+	)
+	(hierarchical_label "KNOB_RT_C"
+		(shape output)
+		(at 134.62 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24139cdc-afe7-4f41-a31e-e046c8d7bc46")
+	)
+	(hierarchical_label "KNOB_LT_C"
+		(shape output)
+		(at 73.66 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b485b6e-5621-4bcd-92e6-ef102e4301ae")
+	)
+	(hierarchical_label "SD_DA_2"
+		(shape bidirectional)
+		(at 134.62 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "322a3a60-b628-4435-a660-4c5f2ff8c7c6")
+	)
+	(hierarchical_label "DBG_SWD_CLK"
+		(shape output)
+		(at 73.66 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "361d0f84-5b66-4a5e-9a2c-02cde19e42d5")
+	)
+	(hierarchical_label "DBG_TD3"
+		(shape passive)
+		(at 134.62 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a0cdc9b-c5f6-412c-88e1-99c2f1f254f9")
+	)
+	(hierarchical_label "DBG_SWD_NRST"
+		(shape output)
+		(at 134.62 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d656e00-bd5d-4c48-b5de-ad7b779e7813")
+	)
+	(hierarchical_label "SD_CLK"
+		(shape input)
+		(at 73.66 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e3756db-4f93-4a11-9d8a-d69210b73fa4")
+	)
+	(hierarchical_label "KNOB_RT_A"
+		(shape output)
+		(at 134.62 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43a1991c-75fe-4c0a-8032-df9ae30108eb")
+	)
+	(hierarchical_label "SCREEN_EN"
+		(shape input)
+		(at 105.41 168.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c4b1fce-a590-40d8-b55e-7efa3042b100")
+	)
+	(hierarchical_label "DBG_BOOT0"
+		(shape output)
+		(at 73.66 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50ef1bf9-b6ee-4a8c-9f4d-d02d3ece2b48")
+	)
+	(hierarchical_label "SCREEN_D5"
+		(shape input)
+		(at 73.66 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5663db1c-d254-4299-886e-8454320ae142")
+	)
+	(hierarchical_label "SCREEN_D4"
+		(shape input)
+		(at 73.66 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "581527ef-729b-4774-8981-418eed80fb58")
+	)
+	(hierarchical_label "SCREEN_REG_SEL"
+		(shape input)
+		(at 102.87 168.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c2b7cbe-8a0a-4278-83f1-f0ca7983a667")
+	)
+	(hierarchical_label "SD_CMD"
+		(shape bidirectional)
+		(at 73.66 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6899d81c-8046-4dac-9b94-885de57794d3")
+	)
+	(hierarchical_label "KNOB_LT_CLICK"
+		(shape output)
+		(at 73.66 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e3f4df3-b994-4e0d-b496-5e70ea954b33")
+	)
+	(hierarchical_label "SCREEN_CONTRAST_SDA"
+		(shape bidirectional)
+		(at 134.62 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70cd98d3-53c1-468b-a351-2e8aa60d733e")
+	)
+	(hierarchical_label "DBG_TD1"
+		(shape passive)
+		(at 134.62 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75664acc-238f-43c4-80ba-2489613be9f5")
+	)
+	(hierarchical_label "SD_DA_0"
+		(shape bidirectional)
+		(at 134.62 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ccd8682-0536-4f36-b0fa-878bf45be42a")
+	)
+	(hierarchical_label "KNOB_RT_B"
+		(shape output)
+		(at 134.62 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dac228d-3cd6-4043-9291-8f3bccdeb81f")
+	)
+	(hierarchical_label "DBG_TDCLK"
+		(shape passive)
+		(at 134.62 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91fa58a8-8604-4c68-a8b8-651e849bdd7d")
+	)
+	(hierarchical_label "SD_DA_3"
+		(shape bidirectional)
+		(at 134.62 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95b8730d-1fb9-4415-8997-3719f806d48f")
+	)
+	(hierarchical_label "DBG_UART_RX"
+		(shape output)
+		(at 134.62 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9de40c71-f31e-4217-b459-8a211414cdcf")
+	)
+	(hierarchical_label "SCREEN_RW"
+		(shape input)
+		(at 107.95 168.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0bd1737-08fc-4560-ad07-f6e95281d984")
+	)
+	(hierarchical_label "DBG_JTAG_NRST"
+		(shape output)
+		(at 134.62 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6414dc9-4598-41ac-a90c-65f9052eba9c")
+	)
+	(hierarchical_label "DBG_JTDO"
+		(shape input)
+		(at 73.66 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6c2e197-c7c0-4c88-92dd-f9af5cd385ff")
+	)
+	(hierarchical_label "DBG_JTAG_JTDI"
+		(shape output)
+		(at 73.66 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aed8d17b-b6b2-4c97-97a3-977f9d78b524")
+	)
+	(hierarchical_label "DBG_I2C_CLK"
+		(shape output)
+		(at 73.66 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b55b2771-5fa1-4594-a19f-0a713f89f020")
+	)
+	(hierarchical_label "DBG_TD2"
+		(shape passive)
+		(at 134.62 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b82d2607-a27e-494a-8475-eb9c50864ea0")
+	)
+	(hierarchical_label "DBG_TD0"
+		(shape passive)
+		(at 134.62 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8c3f5dd-6e18-4ce6-91a3-7e34287cefc3")
+	)
+	(hierarchical_label "KNOB_LT_A"
+		(shape output)
+		(at 73.66 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0536b3b-194b-4fa8-9be2-5226e0ecdc75")
+	)
+	(hierarchical_label "SCREEN_D6"
+		(shape input)
+		(at 73.66 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2c23664-2d00-4be0-820e-597514219fd8")
+	)
+	(hierarchical_label "SCREEN_BRIGHTNESS"
+		(shape input)
+		(at 134.62 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8f85b4d-8536-410d-902c-bab2b7e6d9a5")
+	)
+	(hierarchical_label "KNOB_RT_CLICK"
+		(shape output)
+		(at 134.62 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbbe3ff9-a3dc-4738-9712-3363940832f9")
+	)
+	(hierarchical_label "KNOB_LT_B"
+		(shape output)
+		(at 73.66 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e876a0c2-231f-4829-8f8d-69ec019bc224")
+	)
+	(hierarchical_label "SD_DA_1"
+		(shape bidirectional)
+		(at 134.62 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee6886d9-896a-4286-9e5e-2a0d776c94c3")
+	)
+	(hierarchical_label "DBG_UART_TX"
+		(shape input)
+		(at 134.62 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7433297-175a-4726-851a-9a4280c93bfc")
+	)
+	(hierarchical_label "SCREEN_CONTRAST_SCL"
+		(shape input)
+		(at 134.62 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f81a8715-5662-437f-ab73-64fd8253eb42")
+	)
+	(sheet
+		(at 88.9 109.22)
+		(size 33.02 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1070fcb4-9476-42bc-99c8-1edf009e0c96")
+		(property "Sheetname" "KNOBS"
+			(at 88.9 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "knobs.kicad_sch"
+			(at 88.9 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LEFT_A" output
+			(at 88.9 111.76 180)
+			(uuid "ab0c9f8f-f75e-4091-aebb-f76b63943ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT_B" output
+			(at 88.9 114.3 180)
+			(uuid "a1fcfee6-adde-4883-a1d3-5a6ba197303d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT_C" output
+			(at 88.9 116.84 180)
+			(uuid "79d33a20-02a1-4840-99f6-d294b93b27b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT_PRESS" output
+			(at 88.9 119.38 180)
+			(uuid "248bfa87-0403-4375-b582-f06c6ff500f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIGHT_A" output
+			(at 121.92 119.38 0)
+			(uuid "2e213bed-55a2-4525-b76a-fcf97c25b1ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIGHT_B" output
+			(at 121.92 116.84 0)
+			(uuid "65d41a75-67e5-4432-91ed-c151d83a5c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIGHT_C" output
+			(at 121.92 114.3 0)
+			(uuid "44634172-267f-48c1-9bfd-e5127b6c337c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIGHT_PRESS" output
+			(at 121.92 111.76 0)
+			(uuid "786134c2-b1dc-48e5-99b9-4f6fd877f2bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 40.894)
+		(size 33.02 33.274)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e8f0986-8646-4208-a124-eb17f25fc609")
+		(property "Sheetname" "DEBUG"
+			(at 88.9 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug.kicad_sch"
+			(at 88.9 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BOOT0" output
+			(at 88.9 45.72 180)
+			(uuid "52af10a0-f2a8-4d81-a030-6d38f475b71c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_CLK" output
+			(at 88.9 67.31 180)
+			(uuid "6b648f5b-97c9-49c8-89f5-84d68e454cf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_DATA" bidirectional
+			(at 88.9 69.85 180)
+			(uuid "972c1e42-b26d-4335-92b7-e022f49934fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRACECLK" passive
+			(at 121.92 50.8 0)
+			(uuid "5c36f9fb-f860-4ee2-913e-9ab5b6a5b35a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRACED0" passive
+			(at 121.92 60.96 0)
+			(uuid "071e5fac-8bb0-496c-83e5-ccbc0d823e99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRACED1" passive
+			(at 121.92 58.42 0)
+			(uuid "8af792c5-70c1-4ba0-897d-0444afe8fc74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRACED2" passive
+			(at 121.92 55.88 0)
+			(uuid "d4cfd62f-372a-41f2-96af-4c81a5c01239")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRACED3" passive
+			(at 121.92 53.34 0)
+			(uuid "1a016332-a85e-4408-859c-0a88590d79b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" output
+			(at 121.92 69.85 0)
+			(uuid "f313b61d-c16b-4cd5-9aa6-77bbd046d76d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 121.92 67.31 0)
+			(uuid "68266b1f-aa47-4abe-83dc-21de62e1f4c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NC_TDI" output
+			(at 88.9 59.69 180)
+			(uuid "e514ac24-18ce-4445-83f2-cda1f1bac87d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_NEG_RESET" output
+			(at 121.92 43.18 0)
+			(uuid "be8b9854-8d7c-4770-9937-cdb44e84d8de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWD_CLK_TCK" output
+			(at 88.9 52.07 180)
+			(uuid "6d815472-cbbc-4be0-b0aa-0825d9e3be48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD_IO_TMS" input
+			(at 88.9 54.61 180)
+			(uuid "8fad8660-624a-43b5-9d18-5c3d2913aa97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD_NEG_RESET" output
+			(at 121.92 45.72 0)
+			(uuid "7cbfc532-b362-402a-a0b9-80de6d820699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO_O_TDO" input
+			(at 88.9 57.15 180)
+			(uuid "c46993c1-6922-44c9-bb64-ca54855ebb28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 86.36)
+		(size 33.02 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce34f421-cc35-4faf-bd72-2298641dd465")
+		(property "Sheetname" "SD"
+			(at 88.9 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 88.9 101.5496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLOCK" input
+			(at 88.9 95.25 180)
+			(uuid "0a70d6d3-9624-4be5-ab0b-5286e2a84c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "COMMAND" bidirectional
+			(at 88.9 90.17 180)
+			(uuid "444bf25d-d72e-4a37-a49a-412a90e000ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "DATA_2" bidirectional
+			(at 121.92 93.98 0)
+			(uuid "1efafd27-8f57-403a-bd9a-eee83e99f124")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_3" bidirectional
+			(at 121.92 96.52 0)
+			(uuid "a8144050-60b8-4435-9428-23b7ba09a876")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_0" bidirectional
+			(at 121.92 88.9 0)
+			(uuid "304259d1-f090-48a4-924b-da42e4c756aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_1" bidirectional
+			(at 121.92 91.44 0)
+			(uuid "a74b00e3-b5b1-4415-8547-e203534c0ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 135.89)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a")
+		(property "Sheetname" "SCREEN"
+			(at 88.9 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "screen.kicad_sch"
+			(at 86.36 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BACKLIGHT_PWM" input
+			(at 121.92 140.97 0)
+			(uuid "9138abe4-d36f-4b96-866c-8c605f9285fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" input
+			(at 105.41 158.75 270)
+			(uuid "db3192a8-a5cb-4470-b950-9e6a79644f3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "REG_SEL" input
+			(at 102.87 158.75 270)
+			(uuid "919d001c-16b9-4923-9627-9cdeeee4d48e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "R{slash}W" input
+			(at 107.95 158.75 270)
+			(uuid "8226b809-d7b7-4c85-801c-51c233ceebb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "CONTRAST_SCL" input
+			(at 121.92 143.51 0)
+			(uuid "8357463d-b3e2-4cc6-9325-ca5f58e0c80d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CONTRAST_SDA" bidirectional
+			(at 121.92 146.05 0)
+			(uuid "e9dda2d9-6bc4-42fe-9698-a85f46dcb18b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D4" input
+			(at 88.9 138.43 180)
+			(uuid "c9e2ea38-0b74-4640-baaa-ab99400493cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D5" input
+			(at 88.9 140.97 180)
+			(uuid "7538f6a3-ad5d-4694-ba2a-7e16d0573613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D6" input
+			(at 88.9 143.51 180)
+			(uuid "dc6d4d1b-ec95-4e56-9d6c-3343f2e81989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D7" input
+			(at 88.9 146.05 180)
+			(uuid "ca9e1833-11d2-4228-b02d-47b26a9acdbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769"
+					(page "6")
+				)
+			)
+		)
+	)
+)

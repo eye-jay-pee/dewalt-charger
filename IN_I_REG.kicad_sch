@@ -1,0 +1,88 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27cd38b3-6735-43f9-905d-d792abc9dba5")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 113.03 148.59) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a78884-d9e4-4d68-bee9-991ea9dce753")
+	)
+	(wire
+		(pts
+			(xy 113.03 138.43) (xy 127 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d86c183-d882-432d-8a83-a31a1d70d844")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf49e8-63b1-4e6d-9c9e-253397f23e7a")
+	)
+	(wire
+		(pts
+			(xy 113.03 151.13) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e086fc3-5512-4feb-968f-ebee7c6bad43")
+	)
+	(wire
+		(pts
+			(xy 113.03 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef7d1c7-e2b8-49b3-805f-4be832474ef9")
+	)
+	(wire
+		(pts
+			(xy 113.03 135.89) (xy 125.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a30609a-f602-49b4-883d-904ce61e16cb")
+	)
+	(wire
+		(pts
+			(xy 113.03 140.97) (xy 128.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba189f99-2824-41e8-9f35-0d4f0a88c3dc")
+	)
+	(wire
+		(pts
+			(xy 113.03 143.51) (xy 129.54 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3654301-a050-445a-b059-1cf06a2bc51b")
+	)
+)

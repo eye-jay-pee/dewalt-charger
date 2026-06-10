@@ -1,0 +1,1003 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "57b4771a-b4c7-4c73-8bdb-14bfc093e6db")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 254 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cedb2ce1-38fc-4d2d-90d3-ba42c47dc0fe")
+	)
+	(wire
+		(pts
+			(xy 254 113.03) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0750a11a-fc6d-4e34-a155-a92200eda2de")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 254 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0b20bf-92db-41da-8aa9-cd0ab35bf62c")
+	)
+	(wire
+		(pts
+			(xy 254 76.2) (xy 254 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd90659-40f9-4571-9ab6-ad67da0eb610")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6085778c-0e1a-41a9-b706-108e3994fc28")
+	)
+	(wire
+		(pts
+			(xy 254 102.87) (xy 254 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffd3932-270e-4b4e-9b56-48a2be6c59a5")
+	)
+	(wire
+		(pts
+			(xy 254 111.76) (xy 254 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb98bca-cf52-49cd-9d97-05cb067af304")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 254 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8536e653-3ac6-4b8c-9272-7f376bb1b093")
+	)
+	(wire
+		(pts
+			(xy 254 67.31) (xy 218.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b8e991-e6da-4c12-bd1b-c4255dd82206")
+	)
+	(wire
+		(pts
+			(xy 218.44 82.55) (xy 246.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c8ac38-eda5-41f8-aff0-2e7cbc69960a")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 246.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9891792-4a23-4f18-b73a-4e74972a50b9")
+	)
+	(wire
+		(pts
+			(xy 254 87.63) (xy 254 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bc6cfd-4f6d-4bc2-a414-5a313974e011")
+	)
+	(hierarchical_label "Regulator Positive"
+		(shape bidirectional)
+		(at 218.44 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f88a6ac-a5bc-4450-ae3c-5bf34cb87a01")
+	)
+	(hierarchical_label "Switch Node"
+		(shape output)
+		(at 218.44 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ac9e05c-6361-4feb-87e0-7aec46d6636a")
+	)
+	(hierarchical_label "Pre Charge Gate"
+		(shape input)
+		(at 218.44 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c10e4cce-8cc9-4cc0-915d-666549b22d29")
+	)
+	(hierarchical_label "Pre Discharge Gate"
+		(shape input)
+		(at 218.44 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c727fafc-c52c-49c2-a52e-07adba25949d")
+	)
+	(hierarchical_label "Pack Positive"
+		(shape bidirectional)
+		(at 218.44 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddc064b0-3fa8-4be6-b1cc-53a0324e7dfc")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c512464-afc2-4815-a738-167b1447b369")
+		(property "Reference" "R37"
+			(at 256.54 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 256.54 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.222 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c80c4fc-1867-4aea-a1fa-b21d2db86870")
+		)
+		(pin "1"
+			(uuid "ce190018-63fb-465e-8055-1756032f17ff")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R149")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R111")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 251.46 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17bf70e9-e5a6-4a95-a0d2-f854a48cbf10")
+		(property "Reference" "Q5"
+			(at 260.096 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 260.096 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 251.46 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7abca7f5-f1f6-4a4b-9da6-7520ba5bca43")
+		)
+		(pin "1"
+			(uuid "637dddb1-da3f-4f8e-bf21-8edca0c6091c")
+		)
+		(pin "2"
+			(uuid "ecb3842c-b4ff-4802-bc7b-05b1d75dfca2")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q35")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d61fc11-fe93-4049-88d3-d764a084f51b")
+		(property "Reference" "R38"
+			(at 256.54 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 256.54 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.222 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d01468e3-b604-410a-b3b4-55e35ef014a6")
+		)
+		(pin "2"
+			(uuid "7c692827-7836-4fb3-8452-c8839d8d9a0c")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R150")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R112")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 251.46 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f7d9220-e8a1-41d6-9dd6-d62b536d88d7")
+		(property "Reference" "Q6"
+			(at 260.096 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 260.096 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 251.46 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 251.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d68e148f-eadd-4efa-869d-51678a3bb6ab")
+		)
+		(pin "1"
+			(uuid "56c22c91-4b92-491d-b1df-69f446a8a477")
+		)
+		(pin "3"
+			(uuid "9901c30c-9001-4828-abbf-5557df5b4ef3")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q36")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/1c3bdff1-beab-4913-ac56-c40d14ab794c/cc13c274-38ec-48e2-87fa-85c47d302b78"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

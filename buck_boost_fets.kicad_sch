@@ -1,0 +1,1218 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "89b9210a-ef77-4ac2-80ae-9335b5947885")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15a62689-00ee-49de-83a8-a009b70326db")
+	)
+	(junction
+		(at 172.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31be5586-7563-481d-81d0-e3aeb436d405")
+	)
+	(junction
+		(at 158.75 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a488a41-681d-42d6-9fdd-b2e4bfa35a31")
+	)
+	(junction
+		(at 158.75 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0c1815c-27a8-4894-97f2-a0fe291aab5e")
+	)
+	(junction
+		(at 158.75 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d279821a-421b-4a7c-9553-6b7692e44401")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b077a23-2da4-45ae-9b11-39b7dd480d15")
+	)
+	(wire
+		(pts
+			(xy 107.95 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df1a20a-01fa-4f20-987f-4b7ff94ea616")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 120.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309041c8-f88f-44fb-9eac-221257864def")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314a3998-ddd2-402f-b556-4c9537c00388")
+	)
+	(wire
+		(pts
+			(xy 158.75 110.49) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b44358-35a0-4069-9bfb-6f2d2f338490")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bc2a95-85d2-4e09-a6e4-0be969b6f20f")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39956b21-6d4e-4dd7-8bb1-2115a17bd2e3")
+	)
+	(wire
+		(pts
+			(xy 172.72 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db05087-3af1-4fdf-8add-bb83e36f6579")
+	)
+	(wire
+		(pts
+			(xy 176.53 90.17) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e57db5b-19f3-43bf-8e12-8da7834a66a8")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc68d7d-9cfc-4ac4-9da4-6e9c1a1f0306")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fd49ef-12d2-4964-9e3d-254b8e3c43bd")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c35b83c-5118-4e9e-bbfa-40b39d0dbb79")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8326a8-a124-49bf-81dd-e649511b3925")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69a71e3-2909-4b39-a10f-004c457ee2b7")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a852c007-e671-413c-b247-bfa0e57b63e0")
+	)
+	(wire
+		(pts
+			(xy 158.75 105.41) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90f0955-eedf-4f11-aadf-a39efac60ae5")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b381dc0e-f9a2-4902-93a4-2027b6937dc4")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40ee64b-d8ac-479d-a89d-64546105a802")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 158.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4387bf8-2b3e-442d-977c-6bd750ed8f91")
+	)
+	(wire
+		(pts
+			(xy 176.53 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d397de49-03db-45be-9478-ae10618571de")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 176.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d718d413-b134-424d-9ae4-1427117bf41c")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de667830-0098-4a3e-aad0-faf0e25dac2c")
+	)
+	(wire
+		(pts
+			(xy 158.75 110.49) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e7a06b-3d22-426a-8f26-c41dacb55622")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee49d2c5-136c-435a-bbbb-87ac3adce194")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bde5be-8eb7-4f20-947b-e5e060866d77")
+	)
+	(hierarchical_label "Switch 2"
+		(shape input)
+		(at 176.53 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1117c95a-f1ea-4fff-9df0-300f7df7a0ba")
+	)
+	(hierarchical_label "Low Drive 2"
+		(shape input)
+		(at 107.95 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "157c5335-b144-4a86-977e-98dae99733f1")
+	)
+	(hierarchical_label "High Side 2"
+		(shape input)
+		(at 107.95 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a116b2a-dc02-407f-a05b-f8030b9a9234")
+	)
+	(hierarchical_label "Bootstrap 1"
+		(shape input)
+		(at 176.53 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fad9588-bd1a-4c8a-b23f-b99bfc829afd")
+	)
+	(hierarchical_label "HIgh Side 1"
+		(shape input)
+		(at 107.95 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69e67834-2a26-44e0-8358-abf31f0a41d7")
+	)
+	(hierarchical_label "High Drive 1"
+		(shape input)
+		(at 107.95 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "807ff669-feed-4e75-a1bc-5bcccca2a20d")
+	)
+	(hierarchical_label "Drive Supply"
+		(shape input)
+		(at 176.53 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a98fdcb2-cf6e-4c38-b849-d07b1f64c2b9")
+	)
+	(hierarchical_label "High Drive 2"
+		(shape input)
+		(at 107.95 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4e97491-7f82-4f4f-b23e-4b7a29463ac4")
+	)
+	(hierarchical_label "Low Drive 1"
+		(shape input)
+		(at 107.95 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf624773-414d-4576-a45b-954a6a6991c2")
+	)
+	(hierarchical_label "Bootstrap 2"
+		(shape input)
+		(at 176.53 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d262ce58-738b-4e74-aa9c-7f817a4d3b96")
+	)
+	(hierarchical_label "Switch 1"
+		(shape input)
+		(at 176.53 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e098fd04-dcc5-498f-aee7-2484d74bb748")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 165.1 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b046d46-a75e-4c60-ab6a-6b09382e9886")
+		(property "Reference" "D6"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "100b7792-2f20-41b0-b7f9-c4d7ed544102")
+		)
+		(pin "2"
+			(uuid "33560a2b-ab0e-4506-913b-b08b987a5051")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 165.1 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "676abf59-9aa9-4865-afd4-1530f4a794cf")
+		(property "Reference" "D5"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb04688-f6df-4296-8722-8add56e3f6fe")
+		)
+		(pin "2"
+			(uuid "4b0273e1-c45a-4a98-98b8-5ca1cf629081")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 158.75 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8eeca0a-caf5-4e29-b024-27ece00db278")
+		(property "Reference" "L1"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 156.21 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 158.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8f4142-64a7-4adf-bfd3-576dc3f980ab")
+		)
+		(pin "2"
+			(uuid "4b9e6292-181d-4267-9abe-b45a89285baf")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "L4")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "L3")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "L2")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 121.158)
+		(size 29.21 9.398)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27e71708-ddc9-441b-8809-b49b3b6a65b4")
+		(property "Sheetname" "Half Bridge 2"
+			(at 120.65 120.4464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "half_bridge.kicad_sch"
+			(at 120.65 131.1406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Bootstrap" input
+			(at 149.86 125.73 0)
+			(uuid "bcec1d2b-1e59-4011-ab2a-df7c0bb77bdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "High Drive" input
+			(at 120.65 123.19 180)
+			(uuid "ec2d2549-2f7b-4904-8531-8af999e08e82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Low Drive" input
+			(at 120.65 125.73 180)
+			(uuid "a32891ee-c94e-421c-b625-bd095c190951")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch" input
+			(at 149.86 123.19 0)
+			(uuid "867c46e0-c7a9-4b55-ab58-44e802f25204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "High Side" input
+			(at 120.65 128.27 180)
+			(uuid "6afe2c58-ffe9-4f1a-81a5-0ce307688f3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "25")
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "40")
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "57")
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "74")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 73.66)
+		(size 29.21 9.906)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94988b25-25fd-46f5-87a6-7af09146d727")
+		(property "Sheetname" "Half Bridge 1"
+			(at 120.65 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "half_bridge.kicad_sch"
+			(at 120.65 84.1506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Bootstrap" input
+			(at 149.86 78.74 0)
+			(uuid "4c37fb34-6c98-4cde-9dcc-91adf712c7be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "High Drive" input
+			(at 120.65 78.74 180)
+			(uuid "2a74a50c-a9eb-46fd-ac1c-c842f0f785c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Low Drive" input
+			(at 120.65 81.28 180)
+			(uuid "dc26f1c9-5461-496f-8f2f-3c2cc7106e60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch" input
+			(at 149.86 81.28 0)
+			(uuid "2ac373ad-215a-462d-b089-cf5638167050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "High Side" input
+			(at 120.65 76.2 180)
+			(uuid "d2ea8c04-edbc-4997-831a-78b9b0e189da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "26")
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "41")
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "58")
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/31b9da60-9da1-43a5-923a-6a1f2cc7924a"
+					(page "75")
+				)
+			)
+		)
+	)
+)

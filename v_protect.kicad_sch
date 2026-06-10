@@ -1,0 +1,575 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a9c5e29f-2154-4fc9-8649-51d652e33da6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "input rangemaxed\n"
+		(exclude_from_sim no)
+		(at 116.84 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33206fa4-b05e-4442-a252-84854cd8db71")
+	)
+	(text "\"If unused, tie ACUV to VAC and ACOV to PGND in order to apply the \ninternal VAC operating window (VVAC_OP).\" -datasheet pg 20\n"
+		(exclude_from_sim no)
+		(at 164.338 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8422ac4-de73-42e9-a924-8adef10aab58")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15209806-c934-4a5f-935b-7a3e0f4cbfc1")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2304c435-c851-4df3-8f08-59002c2969f0")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbadc04-9b4d-47f4-9b30-8a75cba53a4f")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06f4113-c058-4f2c-997d-3f0a7fc3154b")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71c1cb3-b322-47dd-a773-c65d714b2028")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 101.6 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dd5f1fd-ff81-428a-a935-643c7dea3dc6")
+	)
+	(hierarchical_label "AC Over-Voltage"
+		(shape output)
+		(at 120.65 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91d84f6f-d316-4038-b312-218453ab39b0")
+	)
+	(hierarchical_label "AC Under-Voltage"
+		(shape output)
+		(at 120.65 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c34584b0-c01e-46cc-aa34-b3456ff7122e")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82ff3846-b52a-4e4c-901e-80147ef295d9")
+		(property "Reference" "R158"
+			(at 111.76 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 111.76 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2144b5c-6120-42b1-8c37-88a503fbaffa")
+		)
+		(pin "1"
+			(uuid "b2347ceb-a6fe-46b8-971b-abb194b859ce")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R161")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R117")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R79")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f96aa1-50a2-4956-b470-b808d6024d3f")
+		(property "Reference" "R159"
+			(at 111.76 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 111.76 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0da7ac8e-36e0-4cb3-a1bb-2d6326605dba")
+		)
+		(pin "1"
+			(uuid "d137e72b-0bdf-436b-af4c-f302e0fbabee")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R162")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R118")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "R159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcff32cc-6ddc-4710-8610-f1d976673c6f")
+		(property "Reference" "#PWR041"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0be30ef4-34c6-40e8-9317-1232e0079850")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/be9c295b-fabb-4e83-bf4f-24620e0a9b52/bf5820c4-07f2-4f61-8045-a391dd003655"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

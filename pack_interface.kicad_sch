@@ -1,0 +1,2348 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bc6081fd-1265-4201-84b7-b1896cd95c11")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 139.7 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0463a00c-a1c5-4787-970c-c6983117ca51")
+	)
+	(junction
+		(at 139.7 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e58fffb-3b41-47f9-ba9e-6bb2439cbbc4")
+	)
+	(junction
+		(at 139.7 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cdcfe80-464c-4485-87ea-548e94c0c4c0")
+	)
+	(junction
+		(at 95.25 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39ddeac2-382c-427f-b003-c84882733f5d")
+	)
+	(junction
+		(at 139.7 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a0b2b4-9d2e-4013-ba6a-6217fbc46756")
+	)
+	(junction
+		(at 139.7 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddf1b11d-7d0e-42d2-bf89-5d8c6fd5ab6a")
+	)
+	(junction
+		(at 95.25 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e19f1999-b7bf-4618-8a77-9c2f38ff386a")
+	)
+	(junction
+		(at 139.7 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e262d170-82ee-4516-89f2-d8e7560c08bb")
+	)
+	(junction
+		(at 95.25 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7717967-b43e-40d0-841c-61f91dc489b4")
+	)
+	(junction
+		(at 95.25 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e638da-b25a-4b85-9b0b-4706b6044d3c")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00701aab-401f-454a-9134-d39e49a7ba04")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a6b9fb-daa4-49c5-a287-a1ab1319356a")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0417417a-a15c-4469-b0b3-baa50e95360f")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050e67f0-52f0-43df-9f67-fc7bd92ce668")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091f98b0-16fd-4589-9969-60c032144921")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d6199a-21ce-4c86-8c81-478ea304fd29")
+	)
+	(wire
+		(pts
+			(xy 95.25 143.51) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b08ccdb-0789-4988-9492-bcb8c92e903a")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203b8de2-9f76-433f-94f3-06ab02b8254f")
+	)
+	(wire
+		(pts
+			(xy 120.65 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fb1123-2a80-49d5-b0b4-99e62298d5c0")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c27d3d9-aad3-463b-ae8a-d147feb4f9f5")
+	)
+	(wire
+		(pts
+			(xy 95.25 95.25) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f13d5f3-b4fd-4022-88e1-a35f1885ffb3")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f4dac6-6f8f-4109-939e-355b9e4dd9b6")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 111.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36359801-b3bc-4519-8f57-e8524b01917c")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 168.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cf5d14-a983-4e5f-ac84-061b9de18584")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449507d0-973a-4316-802b-ac2bc735b4e5")
+	)
+	(wire
+		(pts
+			(xy 95.25 102.87) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fd896a-3f02-4420-8f90-f8bd76b1659e")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4566022f-ef57-442b-acbb-4ffd1d401e12")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 139.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4832e99b-fbdc-4fca-a316-96da3d71191c")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486ce133-0ae1-4fd5-bd24-a88a6feb993b")
+	)
+	(wire
+		(pts
+			(xy 95.25 53.34) (xy 168.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e977a6-e0ee-45c4-bc0c-89c98973412a")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.17) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa806f5-db4b-445a-b419-e6f7444b6be7")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521f6682-c099-467e-aa6e-9f70d8b62744")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c23c7c-2b67-476a-a400-cca252e58d76")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56129766-e314-400c-9bf2-15f2e2c5e904")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a6bd46-e68a-4010-955a-4cc978a5d19b")
+	)
+	(wire
+		(pts
+			(xy 139.7 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e6ca30-1850-403e-a9a3-644c52daff1f")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee12900-c755-446b-9fe5-3ed997dc2682")
+	)
+	(wire
+		(pts
+			(xy 123.19 130.81) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600617f7-d035-42e8-9a92-dcf5ebda45e7")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6973a703-4b0f-48d7-ba1b-137bf4a5bf97")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 168.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c97f1ec-68b4-4426-a992-9925917838d7")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f12857e-e832-4477-b3ac-762ae85c7b82")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7057ab42-8f57-406c-b614-d842552bf539")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b46df0-df0b-4ffe-b86c-8044d1e62caa")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fb7ead-a2b3-49b2-943d-bd9512aa8842")
+	)
+	(wire
+		(pts
+			(xy 95.25 53.34) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c88b173-82bc-48a8-9544-87feab385d6c")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee1f9b9-a49a-49b9-bab4-de4ea1cc6db7")
+	)
+	(wire
+		(pts
+			(xy 92.71 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c70021-d88d-43b7-9ef6-d94413340ecb")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c841c5f-f66e-4ea9-9e2d-ff4044168087")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 123.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8b976e-68ae-49d1-b066-a12a518cb78e")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e029cf0-3c82-4089-a12f-bd1e4fec5af3")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e87588d-10d9-42c0-9082-53cd82089d77")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94719e80-79f4-44d5-b777-739ddf14f0b5")
+	)
+	(wire
+		(pts
+			(xy 139.7 128.27) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99503baa-777b-4229-b5cb-d3889898884c")
+	)
+	(wire
+		(pts
+			(xy 92.71 100.33) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3bc104-2749-4b53-ac1c-ac796d203257")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0393c4-6cab-4521-b458-b31dd5a08d86")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8395cc2-631f-41ee-a3b9-8f251ca39695")
+	)
+	(wire
+		(pts
+			(xy 95.25 143.51) (xy 168.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d1e277-247d-483d-aef6-3b14da2791b7")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89247a8-9423-4a2d-9746-e195434b6d4e")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc737887-2f31-4d51-924d-4d65ae415d0a")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 95.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98f25f6-f9e5-432b-9e12-c4249e8cb725")
+	)
+	(wire
+		(pts
+			(xy 139.7 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd412a4e-66dd-4791-80e5-aad0eb02c537")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ff7ed-828e-40e0-b3f6-7983726685da")
+	)
+	(hierarchical_label "C3"
+		(shape bidirectional)
+		(at 168.91 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "559f4a99-e5d3-48b6-997f-76f001fbff8d")
+	)
+	(hierarchical_label "B_POS"
+		(shape bidirectional)
+		(at 168.91 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59928e1c-65d9-470a-8e98-8e8e0f43f47e")
+	)
+	(hierarchical_label "C2"
+		(shape bidirectional)
+		(at 168.91 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d942df6-b96a-4130-ac04-c226027118b6")
+	)
+	(hierarchical_label "B_NEG"
+		(shape bidirectional)
+		(at 168.91 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77213b0b-0179-48ee-881a-af2914980ec5")
+	)
+	(hierarchical_label "TH"
+		(shape output)
+		(at 92.71 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d91cf4a-3024-4223-9851-a82b47ba5574")
+	)
+	(hierarchical_label "ID"
+		(shape output)
+		(at 92.71 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85b3d61d-eb01-4844-8522-5941cb9418a5")
+	)
+	(hierarchical_label "C0"
+		(shape bidirectional)
+		(at 168.91 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab8f4d99-0f07-40aa-9390-c4100d2dc753")
+	)
+	(hierarchical_label "C5"
+		(shape bidirectional)
+		(at 168.91 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7ad6ffc-2d00-4267-8946-a8682ff37bf3")
+	)
+	(hierarchical_label "C4"
+		(shape bidirectional)
+		(at 168.91 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3056865-2c42-4e60-a6b1-4f933a6a8110")
+	)
+	(hierarchical_label "C1"
+		(shape bidirectional)
+		(at 168.91 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9a979c9-4391-4119-b4e2-0103d5762a68")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1794b0f7-865a-47b5-93fd-cc5e711b09be")
+		(property "Reference" "C31"
+			(at 78.74 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 78.74 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.5848 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67f439c6-98fb-4275-9e8c-fbdcfc4b752d")
+		)
+		(pin "1"
+			(uuid "bc940c1f-2951-4588-964d-e4bb94d96d92")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C121")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C89")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 104.14 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280ef6cb-be22-4b20-957d-745561ba01f2")
+		(property "Reference" "J3"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Molex MFJr"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a12bb3f-1284-4c9a-8949-606ec729cc09")
+		)
+		(pin "3"
+			(uuid "fd146356-1fe3-41e9-8f86-034c50fda030")
+		)
+		(pin "5"
+			(uuid "5f8f42d7-559b-446d-810c-5ad3a9feb41b")
+		)
+		(pin "7"
+			(uuid "099266e7-db88-4a2c-9ded-cf4ed99594ed")
+		)
+		(pin "2"
+			(uuid "17d68537-a290-43de-a33c-7d54c49f1502")
+		)
+		(pin "4"
+			(uuid "65f53a89-3eda-47c8-b046-e62faf60b239")
+		)
+		(pin "6"
+			(uuid "d7836393-d16d-4dfe-9a19-33f3918aeabd")
+		)
+		(pin "8"
+			(uuid "7cea49f1-23e0-4720-aff4-b6d3e8965932")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "J15")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd3a2dc-894b-41f2-8e05-9f3d11b13ed6")
+		(property "Reference" "C32"
+			(at 143.51 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 143.51 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.6652 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32141517-81f8-43c7-8880-603a41c4eeb1")
+		)
+		(pin "1"
+			(uuid "ec9ba326-56f9-4104-a3b1-415f2d9f60f5")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C122")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C90")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bef44d6-ad04-498f-a97c-078622d3d983")
+		(property "Reference" "C35"
+			(at 143.51 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 143.51 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.6652 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0ad65a2-babb-4d09-a9af-cd8dcd3e0509")
+		)
+		(pin "1"
+			(uuid "82a3ca43-2f59-4f54-9ef0-b462fb3cc986")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C125")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C93")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74abef4f-593f-4cf1-b177-6bc2f97d9dd5")
+		(property "Reference" "C140"
+			(at 143.51 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 143.51 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.6652 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c67c5072-b3a4-42c1-b409-cc1b91e9b47d")
+		)
+		(pin "1"
+			(uuid "6d88cc82-8591-4e9e-88e4-d43885a1a052")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C158")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C157")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C144")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98e0dfe9-9074-4aaf-9383-956009b99851")
+		(property "Reference" "R32"
+			(at 127 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 127 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59604727-4109-43d2-85fc-1d5ee774e31a")
+		)
+		(pin "1"
+			(uuid "15b6c4c2-8653-47e3-a2b8-8623e2eb1adb")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R137")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R99")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9efc4843-1f8f-4780-845e-d716a6a1a19d")
+		(property "Reference" "R34"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 127 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e791963-0b8f-49dd-9649-afec5c61f06a")
+		)
+		(pin "1"
+			(uuid "23ed3a43-55e1-4d16-94af-effa245dd1c7")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R139")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd922ff7-96a7-4dca-ae58-3271a013415d")
+		(property "Reference" "R35"
+			(at 127 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 127 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "341128b9-0112-4045-a1b3-e714deb69397")
+		)
+		(pin "1"
+			(uuid "7a478327-bebc-4c14-9ca9-298e8d6c4ee5")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R140")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R102")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8043c27-e1e6-4c67-873b-3bfa3a97c816")
+		(property "Reference" "R36"
+			(at 127 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 127 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2465840-113d-4637-9baa-a3d6f6e2943e")
+		)
+		(pin "1"
+			(uuid "b5956664-0d4f-4429-83d5-b6abfe8625ce")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R141")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R103")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d218d8d3-092a-4752-853f-4c81deddf2f0")
+		(property "Reference" "R33"
+			(at 127 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 127 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00f20f26-aeaa-4746-a91d-5f82b1340144")
+		)
+		(pin "1"
+			(uuid "7b7ee0cc-0e64-4e22-921b-e38bfdedc3d1")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R138")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R100")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e9b74a-eec3-48cc-965f-f6758084265e")
+		(property "Reference" "C34"
+			(at 143.51 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 143.51 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.6652 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd804990-3e22-4fe9-9d89-a26709064be0")
+		)
+		(pin "1"
+			(uuid "30cd3a79-3e51-4165-abd1-81325b30f796")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C124")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C92")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a16a70-3f00-4f06-aab9-4e3373171c84")
+		(property "Reference" "C33"
+			(at 143.51 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 143.51 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.6652 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "495a5814-38c9-47e9-8563-1d941e5bffc0")
+		)
+		(pin "1"
+			(uuid "2eb56e8d-5fc4-42c9-9778-2f587f0bcd4f")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C123")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C91")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C59")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf285fb-32e2-4e2a-9e83-72658a50db00")
+		(property "Reference" "R31"
+			(at 127 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 127 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08200e85-3a2f-4cc3-9077-48a6c11b799b")
+		)
+		(pin "1"
+			(uuid "41aa5ed0-7960-4b79-9493-582640a36cf5")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3be197e7-2c60-4be2-86da-e0017c473e05/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R136")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/3d1258e3-761c-4009-ad0f-f632409b35d2/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/9fd8d38c-95ee-4b8c-b36a-012ee61fea35/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/9fd0dac7-7b25-434f-a041-a58fed4c8ed4/c474f321-0386-415c-8c04-3bc2571df49f/99e30674-1cd1-49fa-ab1d-078e4c5c2726/b8068477-2de8-4c9c-ad95-60719dd88b41"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

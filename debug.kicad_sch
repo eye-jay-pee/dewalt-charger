@@ -1,0 +1,878 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "60f87b1e-a294-41e4-97a2-840ba912a045")
+	(paper "A4")
+	(lib_symbols)
+	(text "Note that Neg Reset and Jtag Neg Reset are NOT the same thing!\n"
+		(exclude_from_sim no)
+		(at 76.2 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f42daea-2f19-4b1b-b180-d94a69e091d2")
+	)
+	(text "Note that Neg Reset and Jtag Neg Reset are NOT the same thing!\n"
+		(exclude_from_sim no)
+		(at 78.486 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32e69ffa-0eaf-47f5-b9d7-f93ad1f9c980")
+	)
+	(text "and becasue this one has a manual reset button\n"
+		(exclude_from_sim no)
+		(at 178.308 160.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62270d0b-a59a-440b-ba5d-b14d107ef940")
+	)
+	(text "This is redundant, but i want both options avalible for flexability. \nOne can be left unpopulated if the other proves expensive or difficult to source."
+		(exclude_from_sim no)
+		(at 141.986 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2efc9c9-60a6-4415-aa73-acdc8f898872")
+	)
+	(junction
+		(at 46.99 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b72d53-f3c2-42d4-83cd-7e387c857434")
+	)
+	(junction
+		(at 71.12 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c1233c5-ac36-4e62-bf73-904965ac8a26")
+	)
+	(junction
+		(at 67.31 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e93ad5-7cc3-475f-9abd-9d9e55fdbf8f")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0303083d-0ff9-4ca0-b0d9-4cf2fbe20755")
+	)
+	(wire
+		(pts
+			(xy 172.72 113.03) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13502103-cb06-4365-b376-8f67e684f927")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142709e0-6912-4589-b8ee-3be4d65e41ae")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffc57ee-61f0-41a1-8e78-3eaa9e315c88")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df7487d-5c62-49e6-9534-99394e9832a1")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 71.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e808404-a136-46ce-88dd-bdb256a56c21")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 179.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4750dfa0-cea2-449e-924f-079dcdc26d91")
+	)
+	(wire
+		(pts
+			(xy 172.72 115.57) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf5d8b2-8db6-4624-80b9-5a4ed4427ffb")
+	)
+	(wire
+		(pts
+			(xy 46.99 115.57) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5025471c-5547-460a-a9cc-39606a6f5e26")
+	)
+	(wire
+		(pts
+			(xy 67.31 137.16) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51318e28-4a4c-4d0a-8944-97c5f8626aa4")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e0c86e-0b4b-4737-ab9f-f72bf91f2309")
+	)
+	(wire
+		(pts
+			(xy 73.66 115.57) (xy 71.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575065c4-dd17-484a-8a0d-831640c0d25e")
+	)
+	(wire
+		(pts
+			(xy 67.31 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a744985-a746-4618-9153-ae0e1df5ecb2")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b45e300-3f0c-47cb-b211-23646fd0f663")
+	)
+	(wire
+		(pts
+			(xy 172.72 110.49) (xy 179.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735e098f-7ee6-4d26-83ed-a736593ccb99")
+	)
+	(wire
+		(pts
+			(xy 179.07 127) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0caa25f-73db-49a0-ba19-9df4a643810b")
+	)
+	(wire
+		(pts
+			(xy 71.12 115.57) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e94629-3340-48bb-96a2-085c86ca9216")
+	)
+	(wire
+		(pts
+			(xy 43.18 115.57) (xy 46.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a9ffb7-b2f0-49db-a801-1dfe9c84a0a1")
+	)
+	(wire
+		(pts
+			(xy 46.99 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c7e9b3-6802-4a83-9de2-924dad300119")
+	)
+	(wire
+		(pts
+			(xy 46.99 115.57) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf55ffe-9e10-4a2b-be18-04706c189d81")
+	)
+	(wire
+		(pts
+			(xy 46.99 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be18bb7f-1e2e-49a9-a16e-d65149116bba")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 113.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec7aea5-da88-4100-b13a-f70028974b97")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1de153-db61-4511-bb52-d487a2b5bf0e")
+	)
+	(wire
+		(pts
+			(xy 109.22 142.24) (xy 116.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70fd482-e164-4214-b03b-232847d3754f")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fea917-302e-460a-babd-3cf5d7746b8e")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39b1c83-0167-4b5f-a85c-5759fe0ba086")
+	)
+	(wire
+		(pts
+			(xy 67.31 115.57) (xy 62.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c07a9a-9503-4c1f-9510-635906815df5")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0c8b40-66d5-4e97-a037-4a3d3978d612")
+	)
+	(hierarchical_label "UART_RX"
+		(shape output)
+		(at 172.72 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09a881dd-36e0-4fd1-b5bc-34da5ef8e14a")
+	)
+	(hierarchical_label "I2C_DATA"
+		(shape passive)
+		(at 172.72 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09d7045b-5581-4040-a79c-46ea6fc7580c")
+	)
+	(hierarchical_label "SWD_IO_TMS"
+		(shape input)
+		(at 62.23 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ce7ba3f-5151-41aa-ab4a-423b01a2a4a6")
+	)
+	(hierarchical_label "TRACECLK"
+		(shape passive)
+		(at 104.14 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cf15a08-53fc-46b9-8d7e-e9bd12db6d40")
+	)
+	(hierarchical_label "NC_TDI"
+		(shape output)
+		(at 104.14 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24b5a174-9a47-4f81-b8cc-5130146d95f6")
+	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 172.72 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e233c3e-0274-4b8c-8211-7d9baab0a610")
+	)
+	(hierarchical_label "SWD_NEG_RESET"
+		(shape output)
+		(at 109.22 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54a2d391-e678-42df-9bc0-6a6b45b2e586")
+	)
+	(hierarchical_label "TRACED2"
+		(shape passive)
+		(at 104.14 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cb0cae6-7d52-482d-8ec4-53b520695ebf")
+	)
+	(hierarchical_label "JTAG_NEG_RESET"
+		(shape output)
+		(at 104.14 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fe13971-0aca-49c2-bc06-0d5df2a21533")
+	)
+	(hierarchical_label "I2C_CLK"
+		(shape passive)
+		(at 172.72 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92ae0f44-7624-4908-9b8e-4734af7f74e3")
+	)
+	(hierarchical_label "TRACED0"
+		(shape passive)
+		(at 104.14 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e1467bc-267e-402e-9416-cdd03546573d")
+	)
+	(hierarchical_label "SWO_O_TDO"
+		(shape input)
+		(at 73.66 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa437f83-ae25-49d9-a385-3de34209e1dc")
+	)
+	(hierarchical_label "TRACED3"
+		(shape passive)
+		(at 104.14 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba297674-4a70-4a7c-ab9b-ae7c331b41bc")
+	)
+	(hierarchical_label "TRACED1"
+		(shape passive)
+		(at 104.14 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d161d200-bc80-467b-807a-a26edf4ebb08")
+	)
+	(hierarchical_label "BOOT0"
+		(shape output)
+		(at 172.72 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2f25664-43dd-45f4-bea4-f522aec6601e")
+	)
+	(hierarchical_label "SWD_CLK_TCK"
+		(shape output)
+		(at 43.18 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d80b6047-5ea0-4849-a05a-a5ed07a86bcb")
+	)
+	(sheet
+		(at 179.07 107.95)
+		(size 22.86 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d24030e-bb14-47b2-9770-8481ba16a252")
+		(property "Sheetname" "UART"
+			(at 179.07 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart.kicad_sch"
+			(at 179.07 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX" output
+			(at 179.07 110.49 180)
+			(uuid "4a557e0e-e7e0-4d48-8802-69c04329b3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" input
+			(at 179.07 113.03 180)
+			(uuid "5a80624a-ffa7-4c10-9b43-f8cd366fc318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT0" output
+			(at 179.07 115.57 180)
+			(uuid "c2c86460-6d44-4c0f-b880-f77212c9159c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 84.328)
+		(size 35.56 32.004)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ffc51f4-da07-44cd-a1ff-a3cce9f6a866")
+		(property "Sheetname" "JTAG and TRACE"
+			(at 113.538 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 113.538 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NC_TDI" output
+			(at 113.03 99.06 180)
+			(uuid "89f7a1db-0b49-4a1a-a4b2-cfda112cbac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEG_RESET" output
+			(at 113.03 86.36 180)
+			(uuid "4860a933-25dc-41a5-82b6-8dfb6541e700")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDCLK_TCK" output
+			(at 113.03 91.44 180)
+			(uuid "4e120efa-ee6d-4801-8a54-7dd91739a328")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO_TMS" input
+			(at 113.03 93.98 180)
+			(uuid "83e1d54f-d3d6-43c5-a5fe-2799244cacd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWOO_TDO" input
+			(at 113.03 96.52 180)
+			(uuid "a8a7c547-8010-428b-a6c2-c15446fd611a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRACECLK" passive
+			(at 113.03 104.14 180)
+			(uuid "7d229184-eb5e-4386-b255-548bb1de433d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRACED0" passive
+			(at 113.03 106.68 180)
+			(uuid "d53a2284-27ba-4bba-b1c5-458325fcf662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRACED1" passive
+			(at 113.03 109.22 180)
+			(uuid "7b4ae1f0-5aa9-447d-b053-8025ec61af44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRACED2" passive
+			(at 113.03 111.76 180)
+			(uuid "37a117e8-5999-4334-b083-7934c0ded2ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRACED3" passive
+			(at 113.03 114.3 180)
+			(uuid "d9a1c448-1e60-4a73-9980-ebf8c1c74018")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609"
+					(page "81")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 124.46)
+		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4472835c-c734-4e63-b646-9ba92c7bdbd0")
+		(property "Sheetname" "I2C"
+			(at 179.07 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c.kicad_sch"
+			(at 179.07 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SERIAL_CLOCK" passive
+			(at 179.07 127 180)
+			(uuid "3bc1ff29-4216-4d7b-9036-cf362b9fb2b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERIAL_DATA" passive
+			(at 179.07 129.54 180)
+			(uuid "0c89b1d3-5721-4364-b13a-9399d6a9fc73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 131.826)
+		(size 22.86 14.732)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e8a6b55-2996-4784-8bde-8f581a40880f")
+		(property "Sheetname" "SERIAL_WIRE"
+			(at 118.618 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial_debug.kicad_sch"
+			(at 116.586 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLOCK" output
+			(at 116.84 139.7 180)
+			(uuid "b5f70869-1858-4d61-a253-1146bcc9e6a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_OUTPUT" bidirectional
+			(at 116.84 137.16 180)
+			(uuid "ecc5916f-9588-49a8-8c91-b7a61ca90309")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEG_RESET" output
+			(at 116.84 142.24 180)
+			(uuid "76c660b6-49bc-4326-806e-44dcdfd9a4fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SINGLE_WIRE_OUTPUT" input
+			(at 116.84 134.62 180)
+			(uuid "4b93613f-40df-4bff-a885-70f18223ea5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609"
+					(page "10")
+				)
+			)
+		)
+	)
+)
