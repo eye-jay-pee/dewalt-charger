@@ -721,7 +721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 191.4652 130.81 0)
 			(effects
 				(font
@@ -730,7 +730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2170082.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FFUIUwFUT1YIXlRVTlZZAQUAFFMKAlIFQFVbX1RXRwUxVlNeRldfUlRXQFVeXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -790,7 +790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 168.6052 130.81 0)
 			(effects
 				(font
@@ -799,7 +799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2170082.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FFUIUwFUT1YIXlRVTlZZAQUAFFMKAlIFQFVbX1RXRwUxVlNeRldfUlRXQFVeXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 167.64 127 0)
 			(effects
 				(font

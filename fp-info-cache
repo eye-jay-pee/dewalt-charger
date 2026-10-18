@@ -1,4 +1,4 @@
-26778218954064030
+26783562527145308
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,6 +20,13 @@ IC_BQ25756RRVR
 0
 53
 53
+Battery
+BAT_BU2032SM-JJ-GTR
+
+
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -106371,21 +106378,35 @@ Varistor VF
 0
 2
 2
-footprints
+local
+BAT_BU2032SM-JJ-GTR
+
+
+0
+2
+2
+local
+C393941
+
+
+0
+10
+9
+system_footprints
 QFN32_RSN_TEX
 
 BQ76922RSNR 
 0
 33
 33
-footprints
+system_footprints
 QFN32_RSN_TEX-L
 
 BQ76922RSNR 
 0
 33
 33
-footprints
+system_footprints
 QFN32_RSN_TEX-M
 
 BQ76922RSNR 

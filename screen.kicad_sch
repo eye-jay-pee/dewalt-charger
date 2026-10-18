@@ -1673,12 +1673,6 @@
 		(uuid "6b331bd7-db1e-414f-a2d8-6ee4ce44eed2")
 	)
 	(junction
-		(at 181.61 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b26d2b5-c23c-430c-af91-3a596bf83fe1")
-	)
-	(junction
 		(at 195.58 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1906,23 +1900,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 177.8 97.79)
+			(xy 167.64 90.17) (xy 167.64 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5169f66c-0ade-4e92-90f8-33a8b1040ce2")
-	)
-	(wire
-		(pts
-			(xy 181.61 100.33) (xy 181.61 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b60d5b-37bb-4968-bda5-2c1f34dd2d33")
 	)
 	(wire
 		(pts
@@ -2066,16 +2050,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 181.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a222b969-468c-4156-857e-b1be67e4df3b")
-	)
-	(wire
-		(pts
 			(xy 113.03 105.41) (xy 113.03 90.17)
 		)
 		(stroke
@@ -2096,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 177.8 97.79)
+			(xy 152.4 97.79) (xy 167.64 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2216,16 +2190,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 91.44) (xy 181.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03abc90-2fc7-422c-99e0-58e9866142f1")
-	)
-	(wire
-		(pts
 			(xy 180.34 64.77) (xy 152.4 64.77)
 		)
 		(stroke
@@ -2293,16 +2257,6 @@
 			(type default)
 		)
 		(uuid "f62b9d62-14fa-4f58-a8f6-bc470d4c4a7a")
-	)
-	(wire
-		(pts
-			(xy 181.61 91.44) (xy 177.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f891daf6-b097-4fa4-b9cf-362b6142a3a7")
 	)
 	(wire
 		(pts
@@ -2559,76 +2513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 181.61 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a0a6a47-da85-418c-9674-5a5c8d642487")
-		(property "Reference" "C3"
-			(at 185.674 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 185.674 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.5752 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a60f1f4-a6f4-4a95-b19b-7ba89c26871f")
-		)
-		(pin "2"
-			(uuid "6bd8ab63-8ad9-4301-aa54-4b5f7862b0b2")
-		)
-		(instances
-			(project "dewalt-charger"
-				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 180.34 123.19 180)
 		(unit 1)
@@ -2693,71 +2577,6 @@
 			(project "dewalt-charger"
 				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31c30a0c-0110-4394-8a93-5d74ad1a5daf")
-		(property "Reference" "#PWR016"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86155f41-d846-4d3a-a89f-e7fbd5d52599")
-		)
-		(instances
-			(project "dewalt-charger"
-				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3399,6 +3218,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 106.68 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95c8d0a9-23e6-46aa-b041-ba8bb3884054")
+		(property "Reference" "C2"
+			(at 102.87 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 102.87 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 105.7148 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.3.xh&lcsc_vid=FgcPBgAFEQNdVFZVRVUPU1JVRlBfUQZRRwVZBgEFRgIxVlNeRlJZU1ZWQVVeUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "www.lcsc.com"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C60474"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fddcf1ae-ecc4-4548-bd94-5774f6d444c7")
+		)
+		(pin "1"
+			(uuid "3a0e9e66-be0c-4ce1-8694-20535158b604")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 158.75 102.87 180)
 		(unit 1)
@@ -3532,7 +3439,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 181.61 90.17 0)
+		(at 167.64 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3540,7 +3447,7 @@
 		(dnp no)
 		(uuid "ccd8c9cc-f591-458a-87fd-453da7132c68")
 		(property "Reference" "#PWR043"
-			(at 181.61 93.98 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3456,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 178.308 88.646 0)
+			(at 164.338 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 90.17 0)
+			(at 167.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 90.17 0)
+			(at 167.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 90.17 0)
+			(at 167.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,75 +3497,6 @@
 			(project "dewalt-charger"
 				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 106.68 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e147954d-f051-4edc-bccf-21bb3a948de6")
-		(property "Reference" "C2"
-			(at 110.49 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.6µF"
-			(at 110.49 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.7148 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 106.68 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "747f413f-8c49-4f3f-b694-606fbb0aa5ea")
-		)
-		(pin "2"
-			(uuid "8867f6f9-d952-42f8-b00c-a60ea066a7ca")
-		)
-		(instances
-			(project "dewalt-charger"
-				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/fd1536f4-dcb5-4d4c-ac72-0a67aaec7c7a"
-					(reference "C2")
 					(unit 1)
 				)
 			)

@@ -1231,6 +1231,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 149.86 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cd5f08d-ce7b-4971-99b5-5da66877b9df")
+		(property "Reference" "C3"
+			(at 153.67 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 153.67 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 150.8252 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60474.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.3.xh&lcsc_vid=FgcPBgAFEQNdVFZVRVUPU1JVRlBfUQZRRwVZBgEFRgIxVlNeRlJZU1ZWQVVeUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "www.lcsc.com"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C60474"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36c5b2c5-4aa7-4499-bfd7-0c43066f72dc")
+		)
+		(pin "1"
+			(uuid "2852720b-f0bf-46ee-9582-5e56ab79c60f")
+		)
+		(instances
+			(project "dewalt-charger"
+				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609/0d24030e-bb14-47b2-9770-8481ba16a252"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 170.18 93.98 90)
 		(unit 1)
@@ -1361,76 +1448,6 @@
 			(project ""
 				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609/0d24030e-bb14-47b2-9770-8481ba16a252"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 149.86 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc6a96b3-2064-4424-ba49-6fbd43f9b1b7")
-		(property "Reference" "C5"
-			(at 153.67 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 153.67 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.8252 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "171611ab-e7de-49ce-a8f5-5c129490c4f2")
-		)
-		(pin "2"
-			(uuid "0d19a977-b10f-4c74-8a7b-1f7865eae3f7")
-		)
-		(instances
-			(project ""
-				(path "/558bf74d-6d23-4881-9feb-55e42a6d0bf9/2e8a157d-9c9c-424e-8c18-81adb44aee59/c5de6aed-9e4c-450c-bd82-429681534769/9e8f0986-8646-4208-a124-eb17f25fc609/0d24030e-bb14-47b2-9770-8481ba16a252"
-					(reference "C5")
 					(unit 1)
 				)
 			)

@@ -177,6 +177,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 86.36) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8384d57b-194a-4b31-93ca-80edea3283a9")
+	)
+	(wire
+		(pts
 			(xy 121.92 58.42) (xy 134.62 58.42)
 		)
 		(stroke
@@ -713,6 +723,17 @@
 		)
 		(uuid "a6c2e197-c7c0-4c88-92dd-f9af5cd385ff")
 	)
+	(hierarchical_label "SD_DETECT"
+		(shape output)
+		(at 134.62 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae9b7d76-6c1b-4a5e-a35b-4cb1a6dc1ba1")
+	)
 	(hierarchical_label "DBG_JTAG_JTDI"
 		(shape output)
 		(at 73.66 59.69 180)
@@ -1173,8 +1194,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 86.36)
-		(size 33.02 12.7)
+		(at 88.9 83.058)
+		(size 33.02 16.002)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1188,7 +1209,7 @@
 		)
 		(uuid "ce34f421-cc35-4faf-bd72-2298641dd465")
 		(property "Sheetname" "SD"
-			(at 88.9 85.598 0)
+			(at 88.9 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1218,7 @@
 			)
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 88.9 101.5496 0)
+			(at 88.9 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,6 +1290,16 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "Card Detect" output
+			(at 121.92 86.36 0)
+			(uuid "1b375106-6282-43f5-99d6-c9e2658072e3")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
